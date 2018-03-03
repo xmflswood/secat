@@ -6,7 +6,8 @@
       <el-dialog
         title="身份验证"
         :visible.sync="showLogin">
-        <p>请输入本站管理员英文名:</p>
+        <p style="color: red;">周末开放公测（届时输入管理员英文名即可进入）</p>
+        <p style="color: red;">非周末时间请联系管理员获取验证码</p>
         <el-input v-model="user"></el-input>
         <span slot="footer">
           <el-button @click="showLogin = false">取消</el-button>
