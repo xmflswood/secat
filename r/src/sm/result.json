@@ -1,0 +1,26 @@
+[
+  {
+    "userid": 1,
+    "webid": 1,
+    "priceone": "3",
+    "pricetwo": "0",
+    "keywordid": 2396,
+    "username": "admin",
+    "platformid": 6,
+    "keywordname": "长沙seo",
+    "websiteurl": "www.zhiuseo.com",
+    "rank": 3
+  },
+  {
+    "userid": 1,
+    "webid": 1,
+    "priceone": "3",
+    "pricetwo": "0",
+    "keywordid": 2446,
+    "username": "admin",
+    "platformid": 6,
+    "keywordname": "长沙做网站",
+    "websiteurl": "www.zhiuseo.com",
+    "rank": 100
+  }
+]

@@ -1,0 +1,17 @@
+lqs: 
+   { offset: '0',
+     format: 'json',
+     keyword: '长沙seo',
+     autoload: 'true',
+     count: '20',
+     cur_tab: '1',
+     from: 'search_tab' }et reg = /^www./
+const urlParse = require('url').parse
+function urlReplace(url) {
+  url = urlParse(url).hostname || url
+  if (!url) {
+    return ''
+  }
+  return url.replace(reg, '')
+}
+module.exports = urlReplace
